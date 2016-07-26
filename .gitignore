@@ -1,0 +1,10 @@
+*.user
+.vs/
+bin/
+css
+node_modules/
+npm-debug.log
+obj/
+packages/
+PokemonGoSlackService/bin/
+PokemonGoSlackService/obj/

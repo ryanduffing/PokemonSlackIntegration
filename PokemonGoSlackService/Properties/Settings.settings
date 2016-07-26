@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PokemonGoSlackService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PtcUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PtcPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultLatitude" Type="System.Double" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultLongitude" Type="System.Double" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GoogleRefreshToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GoogleShortenerKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IncomingSlackHook" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IgnoredPokemon" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;PIDGEY&lt;/string&gt;
+  &lt;string&gt;RATTATA&lt;/string&gt;
+  &lt;string&gt;DROWZEE&lt;/string&gt;
+  &lt;string&gt;SPEAROW&lt;/string&gt;
+  &lt;string&gt;CATERPIE&lt;/string&gt;
+  &lt;string&gt;WEEDLE&lt;/string&gt;
+  &lt;string&gt;ZUBAT&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="PyramidSchemePokestopId" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GoogleShortenerUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.googleapis.com/urlshortener/v1/url?key={0}</Value>
+    </Setting>
+    <Setting Name="GoogleLocationUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://maps.google.com/maps?z=13&amp;t=m&amp;q=loc:{0}+{1}</Value>
+    </Setting>
+    <Setting Name="ServiceApiAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:9493/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
