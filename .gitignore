@@ -8,3 +8,6 @@ obj/
 packages/
 PokemonGoSlackService/bin/
 PokemonGoSlackService/obj/
+PokemonGoSlackService/App.config
+PokemonGoSlackService/Properties/Settings.Designer.cs
+PokemonGoSlackService/Properties/Settings.settings
